@@ -1,0 +1,35 @@
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Restaurant",
+   "image": "https://www.yourwebsite.com/logo.jpg",
+   "priceRange" : "£5 - £25",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Street Address",
+    "addressLocality": " Town ",
+    "addressRegion": "County",
+    "postalCode": "00000"
+    
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4",
+    "reviewCount": "250"
+  },
+  "name": "Name of Restaurant",
+  "openingHours": [
+    "Mo-Sa 11:00-14:30",
+    "Mo-Th 17:00-21:30",
+    "Fr-Sa 17:00-22:00"
+  ],
+  
+  "servesCuisine": [
+    "Middle Eastern",
+    "Mediterranean"
+  ],
+  "telephone": "0000-000000",
+  "url": "https://www.yourwebsite.com",
+  "hasMap": "https://GoogleMapLink"
+}
+</script>
